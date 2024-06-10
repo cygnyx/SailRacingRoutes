@@ -1,0 +1,46 @@
+{
+    "help": [
+	"SF Bay Sail Racing Routes",
+	"San Francisco Bay Sail Racing Routes consists of waypoints, lines, and series.",
+	"Waypoints are locations used in lines and series.",
+	"The lines are used for starts and finishes.",
+	"The series are used to group routes."
+    ],
+    "waypoints": {
+	"help": [
+	    "Use the url section to list sources of waypoints online.",
+	    "Use the override section to add, or override, marks."
+	],
+	"urls": {
+	    "YRA-Marks": "https://github.com/nkiesel/YRA-Marks/blob/master/San_Francisco.csv"
+	},
+	"overrides": {
+	    "BYC Finish RC": ["Berkeley Yacht Club Finish RC", 37.866473, -122.317745],
+	    "BYC Finish Pin": ["Berkeley Yacht Club Finish Pin", 37.86697, -122.318277],
+	    "RYC RC": ["Richmond Yacht Club Finish RC", 37.908000, -122.384950]
+	}
+    },
+    "lines": {
+	"help": [
+	    "A line is a start or finish line, or any other line."
+	],
+	"RYC Start Line": ["RYC RC", "RHC 8"],
+	"RYC Finish Line": ["RYC RC", "RHC 7"],
+	"BYC Finish Line": ["BYC Finish RC", "BYC Finish Pin"]
+    }
+    "series": {
+	"help": [
+	    "A series is a set of routes. Each route has a name and an array of waypoints.",
+	    "Use s. and p. prefix to indicate starboard and port roundings, respectively.",
+	    "The first (start) and last (finish) can be waypoints to lines - waypoints typically don't have roundings."
+	],
+	"BYC Beer Can": {
+	    "5": ["BYC", "p.YRA-DOC", "s.BYC", "p.YRA-DOC", "BYC Finish Line"],
+	    "14": ["BYC", "s.YRA-DOC", "s.YRA-XOC", "BYC Finish"]
+	},
+	"RYC Beer Can": {
+	    "Black": ["RYC Start Line", "p.RW Bn", "s.YRA-NR6", "s.RW Bn", "RHC 7"],
+	    "Orange": ["RYC Start Line", "p.RW Bn", "p.RYC-BK", "s.RW Bn", "RYC Finish Line"]
+	}
+    }
+}
