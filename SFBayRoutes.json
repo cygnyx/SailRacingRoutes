@@ -31,16 +31,16 @@
     "series": {
 	"help": [
 	    "A series is a set of routes. Each route has a name and an array of waypoints.",
-	    "Use s. and p. prefix to indicate starboard and port roundings, respectively.",
-	    "The first (start) and last (finish) can be waypoints to lines - waypoints typically don't have roundings."
+	    "Use s., p. and l. prefix to indicate starboard roundings, port roundings, and lines, respectively.",
+	    "The first (start) and last (finish) can be waypoints or lines."
 	],
 	"BYC Beer Can": {
-	    "5": ["BYC", "p.YRA-DOC", "s.BYC", "p.YRA-DOC", "BYC Finish Line"],
-	    "14": ["BYC", "s.YRA-DOC", "s.YRA-XOC", "BYC Finish"]
+	    "5": ["p.BYC", "p.YRA-DOC", "s.BYC", "p.YRA-DOC", "l.BYC Finish Line"],
+	    "14": ["p.BYC", "s.YRA-DOC", "s.YRA-XOC", "l.BYC Finish"]
 	},
 	"RYC Beer Can": {
-	    "Black": ["RYC Start Line", "p.RW Bn", "s.YRA-NR6", "s.RW Bn", "RHC 7"],
-	    "Orange": ["RYC Start Line", "p.RW Bn", "p.RYC-BK", "s.RW Bn", "RYC Finish Line"]
+	    "Black": ["l.RYC Start Line", "p.RW Bn", "s.YRA-NR6", "s.RW Bn", "l.RYC Finish Line"],
+	    "Orange": ["l.RYC Start Line", "p.RW Bn", "p.RYC-BK", "s.RW Bn", "l.RYC Finish Line"]
 	}
     }
 }
