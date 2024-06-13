@@ -27,7 +27,7 @@
 	"RYC Start Line": ["RYC RC", "RHC 8"],
 	"RYC Finish Line": ["RYC RC", "RHC 7"],
 	"BYC Finish Line": ["BYC Finish RC", "BYC Finish Pin"]
-    }
+    },
     "series": {
 	"help": [
 	    "A series is a set of routes. Each route has a name and an array of waypoints.",
