@@ -12,7 +12,7 @@
 	    "Use the override section to add, or override, marks."
 	],
 	"urls": {
-	    "YRA-Marks": "https://github.com/nkiesel/YRA-Marks/blob/master/San_Francisco.csv"
+	    "YRA-Marks": "https://raw.githubusercontent.com/nkiesel/YRA-Marks/master/San_Francisco.csv"
 	},
 	"overrides": {
 	    "BYC Finish RC": ["Berkeley Yacht Club Finish RC", 37.866473, -122.317745],
