@@ -36,7 +36,7 @@
 	],
 	"BYC Beer Can": {
 	    "5": ["p.BYC", "p.YRA-DOC", "s.BYC", "p.YRA-DOC", "l.BYC Finish Line"],
-	    "14": ["p.BYC", "s.YRA-DOC", "s.YRA-XOC", "l.BYC Finish"]
+	    "14": ["p.BYC", "s.YRA-DOC", "s.YRA-XOC", "l.BYC Finish Line"]
 	},
 	"RYC Beer Can": {
 	    "Black": ["l.RYC Start Line", "p.RW Bn", "s.YRA-NR6", "s.RW Bn", "l.RYC Finish Line"],
