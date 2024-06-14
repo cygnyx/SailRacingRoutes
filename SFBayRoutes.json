@@ -15,9 +15,9 @@
 	    "YRA-Marks": "https://raw.githubusercontent.com/nkiesel/YRA-Marks/master/San_Francisco.csv"
 	},
 	"overrides": {
-	    "BYC Finish RC": ["Berkeley Yacht Club Finish RC", 37.866473, -122.317745],
-	    "BYC Finish Pin": ["Berkeley Yacht Club Finish Pin", 37.86697, -122.318277],
-	    "RYC RC": ["Richmond Yacht Club Finish RC", 37.908000, -122.384950]
+	    "BYC Finish RC": [37.866473, -122.317745, "Berkeley Yacht Club Finish RC"],
+	    "BYC Finish Pin": [37.86697, -122.318277, "Berkeley Yacht Club Finish Pin"],
+	    "RYC RC": [37.908000, -122.384950, "Richmond Yacht Club Finish RC"]
 	}
     },
     "lines": {
