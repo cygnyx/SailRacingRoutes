@@ -17,6 +17,7 @@
 	"overrides": {
 	    "BYC Finish RC": [37.866473, -122.317745, "Berkeley Yacht Club Finish RC"],
 	    "BYC Finish Pin": [37.86697, -122.318277, "Berkeley Yacht Club Finish Pin"],
+		"RW Bn": [37.903762, -122.392035, "RW Bn",
 	    "RYC RC": [37.908000, -122.384950, "Richmond Yacht Club Finish RC"]
 	}
     },
@@ -24,8 +25,8 @@
 	"help": [
 	    "A line is a start or finish line, or any other line."
 	],
-	"RYC Start Line": ["RYC RC", "RHC 8"],
-	"RYC Finish Line": ["RYC RC", "RHC 7"],
+	"RYC Start Line": ["RYC RC", "RHC#8"],
+	"RYC Finish Line": ["RYC RC", "RHC#7"],
 	"BYC Finish Line": ["BYC Finish RC", "BYC Finish Pin"]
     },
     "series": {
