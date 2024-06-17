@@ -5,4 +5,4 @@ Waypoints can be paired to form lines.
 These lines can be used as start and finish lines for routes.
 
 Available files:
-- [San Francisco Bay Sail Racing Routes](SFBayRoutes.JSON)
+- [San Francisco Bay Sail Racing Routes](SFBayRoutes.json)
