@@ -17,7 +17,7 @@
 	"overrides": {
 	    "BYC Finish RC": [37.866473, -122.317745, "Berkeley Yacht Club Finish RC"],
 	    "BYC Finish Pin": [37.86697, -122.318277, "Berkeley Yacht Club Finish Pin"],
-		"RW Bn": [37.903762, -122.392035, "RW Bn"],
+	    "RW Bn": [37.903762, -122.392035, "RW Bn"],
 	    "RYC RC": [37.908000, -122.384950, "Richmond Yacht Club Finish RC"]
 	}
     },
@@ -36,8 +36,20 @@
 	    "The first (start) and last (finish) can be waypoints or lines."
 	],
 	"BYC Beer Can": {
-	    "5": ["p.BYC", "p.YRA-DOC", "s.BYC", "p.YRA-DOC", "l.BYC Finish Line"],
-	    "14": ["p.BYC", "s.YRA-DOC", "s.YRA-XOC", "l.BYC Finish Line"]
+	    "5":   ["p.BYC", "p.YRA-DOC", "s.BYC", "p.YRA-DOC", "l.BYC Finish Line"],
+	    "13":  ["p.BYC", "p.YRA-DOC", "l.BYC Finish Line"],
+	    "14":  ["p.BYC", "s.YRA-DOC", "s.YRA-XOC", "l.BYC Finish Line"],
+	    "25":  ["p.BYC", "p.YRA-FOC", "s.BYC", "p.YRA-XOC", "l.BYC Finish Line"],
+	    "41":  ["p.BYC", "s.YRA-DOC", "s.YRA-XOC", "p.YRA-DOC", "l.BYC Finish Line"],
+	    "43":  ["p.BYC", "p.YRA-XOC", "l.BYC Finish Line"],
+	    "45":  ["p.BYC", "p.YRA-GOC", "s.BYC", "p.YRA-XOC", "l.BYC Finish Line"],
+	    "53":  ["p.BYC", "p.YRA-XOC", "s.BYC", "p.YRA-XOC", "l.BYC Finish Line"],
+	    "123": ["p.BYC", "p.YRA-XOC", "p.YRA-DOC", "l.BYC Finish Line"],
+	    "143": ["p.BYC", "p.YRA-XOC", "p.YRA-DOC", "s.YRA-XOC", "l.BYC Finish Line"],
+	    "213": ["p.BYC", "p.YRA-FOC", "l.BYC Finish Line"],
+	    "241": ["p.BYC", "p.YRA-FOC", "p.YRA-DOC", "l.BYC Finish Line"],
+	    "314": ["p.BYC", "p.YRA-GOC", "l.BYC Finish Line"],
+	    "341": ["p.BYC", "p.YRA-GOC", "p.YRA-DOC", "l.BYC Finish Line"]
 	},
 	"RYC Beer Can": {
 	    "Black": ["l.RYC Start Line", "p.RW Bn", "s.YRA-NR6", "s.RW Bn", "l.RYC Finish Line"],
