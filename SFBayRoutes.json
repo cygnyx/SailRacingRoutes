@@ -58,7 +58,7 @@
 	    "341": ["p.BYC", "p.YRA-GOC", "p.YRA-DOC", "l.BYC Finish Line"]
 	},
 	"EYC Regatta": {
-	    "1":   ["l.EYC Start Line", "p.YRA-PB", "s.GGB-ST", "l.EYC Finish Line"],
+	    "1":   ["l.EYC Start Line", "p.YRA-PB", "s.GGB-ST", "l.EYC Finish Line"]
 	},
 	"RYC Beer Can": {
 	    "Black": ["l.RYC Start Line", "p.RW Bn", "s.YRA-NR6", "s.RW Bn", "l.RYC Finish Line"],
