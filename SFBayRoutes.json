@@ -15,9 +15,13 @@
 	    "YRA-Marks": "https://raw.githubusercontent.com/nkiesel/YRA-Marks/master/San_Francisco.csv"
 	},
 	"overrides": {
+	    "EYC Finish RC": [37.783550, -122.262492, "Encinal Yacht Club Finish RC"],
+	    "EYC Finish Pin": [37.783756, -122.262334, "Encinal Yacht Club Finish Pin"],
 	    "BYC Finish RC": [37.866473, -122.317745, "Berkeley Yacht Club Finish RC"],
 	    "BYC Finish Pin": [37.86697, -122.318277, "Berkeley Yacht Club Finish Pin"],
 	    "RW Bn": [37.903762, -122.392035, "RW Bn"],
+	    "YRA-10 RC": [37.844233, -122.374567, "Encinal Yacht Club YRA-10 Start Pin"],
+	    "YRA-10": [37.843217, -122.3742, "Encinal Yacht Club YRA-10 Start Pin"],
 	    "RYC RC": [37.908000, -122.384950, "Richmond Yacht Club Finish RC"]
 	}
     },
@@ -27,7 +31,9 @@
 	],
 	"RYC Start Line": ["RYC RC", "RHC#8"],
 	"RYC Finish Line": ["RYC RC", "RHC#7"],
-	"BYC Finish Line": ["BYC Finish RC", "BYC Finish Pin"]
+	"BYC Finish Line": ["BYC Finish RC", "BYC Finish Pin"],
+	"EYC Start Line": ["YRA-10", "YRA-10 RC"],
+	"EYC Finish Line": ["EYC Finish RC", "EYC Finish Pin"]
     },
     "series": {
 	"help": [
@@ -50,6 +56,9 @@
 	    "241": ["p.BYC", "p.YRA-FOC", "p.YRA-DOC", "l.BYC Finish Line"],
 	    "314": ["p.BYC", "p.YRA-GOC", "l.BYC Finish Line"],
 	    "341": ["p.BYC", "p.YRA-GOC", "p.YRA-DOC", "l.BYC Finish Line"]
+	},
+	"EYC Regatta": {
+	    "1":   ["l.EYC Start Line", "p.YRA-PB", "s.GGB-ST", "l.EYC Finish Line"],
 	},
 	"RYC Beer Can": {
 	    "Black": ["l.RYC Start Line", "p.RW Bn", "s.YRA-NR6", "s.RW Bn", "l.RYC Finish Line"],
