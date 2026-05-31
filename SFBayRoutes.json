@@ -22,7 +22,8 @@
 	    "RW Bn": [37.903762, -122.392035, "RW Bn"],
 	    "YRA-10 RC": [37.844233, -122.374567, "Encinal Yacht Club YRA-10 Start Pin"],
 	    "YRA-10": [37.843217, -122.3742, "Encinal Yacht Club YRA-10 Start Pin"],
-	    "RYC RC": [37.908000, -122.384950, "Richmond Yacht Club Finish RC"]
+	    "RYC RC": [37.908000, -122.384950, "Richmond Yacht Club Finish RC"],
+		"SBL RC": [37.774300,-122.341060, "South Bay Loop RC proxy"]
 	}
     },
     "lines": {
@@ -33,7 +34,9 @@
 	"RYC Finish Line": ["RYC RC", "RHC#7"],
 	"BYC Finish Line": ["BYC Finish RC", "BYC Finish Pin"],
 	"EYC Start Line": ["YRA-10", "YRA-10 RC"],
-	"EYC Finish Line": ["EYC Finish RC", "EYC Finish Pin"]
+	"EYC Finish Line": ["EYC Finish RC", "EYC Finish Pin"],
+	"SBL Start Line": ["SBL RC", "YRA-NAS2"],
+	"SBL Finish Line": ["SBL RC", "YRA-NAS2"]
     },
     "series": {
 	"help": [
@@ -61,7 +64,7 @@
 	    "1":   ["l.EYC Start Line", "p.YRA-PB", "s.GGB-ST", "l.EYC Finish Line"]
 	},
 	"South Bay Loop": {
-	    "1":   ["p.YRA-NAS2", "s.YRA-SC1", "p.YRA-18", "p.YRA-16", "p.YRA-NAS2"],
+	    "1":   ["l.SBL Start Line", "s.YRA-SC1", "p.YRA-18", "p.YRA-16", "l.SBL Finish Line"],
 	    "2":   ["p.YRA-NAS2", "s.YRA-SC1", "p.YRA-18", "p.YRA-SC1", "p.YRA-NAS2"],
 	    "3":   ["p.YRA-NAS2", "p.YRA-SC1", "p.YRA-34", "p.YRA-36", "p.YRA-SC1",
 			    "p.YRA-34", "p.YRA-36", "p.YRA-SC1", "p.YRA-36", "p.YRA-NAS2"],
