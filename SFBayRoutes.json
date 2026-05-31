@@ -65,15 +65,15 @@
 	},
 	"South Bay Loop": {
 	    "1":   ["l.SBL Start Line", "s.YRA-SC1", "p.YRA-18", "p.YRA-16", "l.SBL Finish Line"],
-	    "2":   ["p.YRA-NAS2", "s.YRA-SC1", "p.YRA-18", "p.YRA-SC1", "p.YRA-NAS2"],
-	    "3":   ["p.YRA-NAS2", "p.YRA-SC1", "p.YRA-34", "p.YRA-36", "p.YRA-SC1",
-			    "p.YRA-34", "p.YRA-36", "p.YRA-SC1", "p.YRA-36", "p.YRA-NAS2"],
-	    "4":   ["p.YRA-NAS2", "p.YRA-SC1", "p.YRA-34", "p.YRA-36", "p.YRA-SC1", "p.YRA-36", "p.YRA-NAS2"],
-	    "5":   ["p.YRA-NAS2", "p.YRA-SC1", "p.YRA-36", "p.YRA-SC1", "p.YRA-36", "p.YRA-SC1", "p.YRA-36", "p.YRA-NAS2"],
-	    "6":   ["p.YRA-NAS2", "p.YRA-SC1", "p.YRA-36", "p.YRA-SC1", "p.YRA-36", "p.YRA-NAS2"],
-	    "7":   ["p.YRA-NAS2", "p.YRA-34", "p.YRA-37", "p.YRA-36", "p.YRA-34", "p.YRA-36", "p.YRA-NAS2"],
-	    "8":   ["p.YRA-NAS2", "p.YRA-34", "p.YRA-36", "p.YRA-34", "p.YRA-36", "p.YRA-34", "p.YRA-36", "p.YRA-NAS2"],
-	    "9":   ["p.YRA-NAS2", "p.YRA-34", "p.YRA-36", "p.YRA-34", "p.YRA-36", "p.YRA-NAS2"]
+	    "2":   ["l.SBL Start Line", "s.YRA-SC1", "p.YRA-18", "p.YRA-SC1", "l.SBL Finish Line"],
+	    "3":   ["l.SBL Start Line", "p.YRA-SC1", "p.YRA-34", "p.YRA-36", "p.YRA-SC1",
+			    "p.YRA-34", "p.YRA-36", "p.YRA-SC1", "p.YRA-36", "l.SBL Finish Line"],
+	    "4":   ["l.SBL Start Line", "p.YRA-SC1", "p.YRA-34", "p.YRA-36", "p.YRA-SC1", "p.YRA-36", "l.SBL Finish Line"],
+	    "5":   ["l.SBL Start Line", "p.YRA-SC1", "p.YRA-36", "p.YRA-SC1", "p.YRA-36", "p.YRA-SC1", "p.YRA-36", "l.SBL Finish Line"],
+	    "6":   ["l.SBL Start Line", "p.YRA-SC1", "p.YRA-36", "p.YRA-SC1", "p.YRA-36", "l.SBL Finish Line"],
+	    "7":   ["l.SBL Start Line", "p.YRA-34", "p.YRA-37", "p.YRA-36", "p.YRA-34", "p.YRA-36", "l.SBL Finish Line"],
+	    "8":   ["l.SBL Start Line", "p.YRA-34", "p.YRA-36", "p.YRA-34", "p.YRA-36", "p.YRA-34", "p.YRA-36", "l.SBL Finish Line"],
+	    "9":   ["l.SBL Start Line", "p.YRA-34", "p.YRA-36", "p.YRA-34", "p.YRA-36", "l.SBL Finish Line"]
 	},
 	"RYC Beer Can": {
 	    "Black": ["l.RYC Start Line", "p.RW Bn", "s.YRA-NR6", "s.RW Bn", "l.RYC Finish Line"],
